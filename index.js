@@ -3,7 +3,7 @@ const closeCountdown = document.getElementById('closeCountdown');
 
 const mainDate = new Date(2023, 1, 5, 16, 0, 0).getTime();
 let closeDate = new Date();
-closeDate.setHours(22, 0, 0);
+closeDate.setHours(21, 45, 0);
 closeDate = closeDate.getTime();
 
 function getTimeFormat(element, distance){
