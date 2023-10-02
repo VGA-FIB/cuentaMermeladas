@@ -7,6 +7,8 @@ closeDate.setHours(21, 45, 0);
 closeDate = closeDate.getTime();
 
 function getTimeFormat(element, distance){
+    if (distance < 0) return "S'ha acabat!";
+
     var hours = Math.floor(distance / (1000 * 60 * 60)).toString();
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString();
     var seconds = Math.floor((distance % (1000 * 60)) / 1000).toString();
