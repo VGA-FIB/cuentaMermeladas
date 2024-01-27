@@ -1,3 +1,3 @@
 # cuentaMermeladas
 Contador para mermeladas jugosas.
-Pages: https://plopez01.github.io/cuentaMermeladas/
+Pages: https://vga-fib.github.io/cuentaMermeladas/
