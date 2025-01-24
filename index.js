@@ -1,7 +1,7 @@
 const mainCountdown = document.getElementById('mainCountdown');
 const closeCountdown = document.getElementById('closeCountdown');
 
-const mainDate = new Date(2024, 0, 28, 17, 0, 0).getTime();
+const mainDate = new Date(2025, 0, 26, 16, 0, 0).getTime();
 let closeDate = new Date();
 closeDate.setHours(23, 55, 0);
 closeDate = closeDate.getTime();
